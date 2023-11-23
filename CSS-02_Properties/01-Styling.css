@@ -1,0 +1,15 @@
+/*Color Background Color Property*/
+h1{
+    color:red;
+    background-color: purple;
+}
+
+p{
+    color: red;
+    background-color: cornsilk;
+}
+
+button{
+    color: red;
+    background-color: cornsilk;
+}
