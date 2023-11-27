@@ -1,0 +1,16 @@
+div p{
+    color: green;
+    font-size: 30px;
+}
+
+/* OR */
+ /* div[id="Myid"] p{
+    color: green;
+    font-size: 30px;
+} */
+
+/* OR */
+/* #Myid p{
+    color: green;
+    font-size: 30px;
+} */
