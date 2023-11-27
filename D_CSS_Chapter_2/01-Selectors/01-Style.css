@@ -24,3 +24,55 @@ h1,h3{
     background-color: lightsalmon;
     color:white;
 }
+
+/* Descendant Selector */
+.post a{
+    color: purple;
+    background-color: yellow;
+}
+
+nav a{
+    text-decoration: wavy underline;
+}
+
+nav ul li a{
+    font-family: monospace;
+    font-size: 20px;
+}
+
+.google  a{
+    background-color: rgb(100, 36, 248);
+    color: blanchedalmond;
+}
+
+/* Adjacent Sibling Combinator
+In this case the h3 headings immediately written after paragraph tags will be applied with the following property */
+p+h3{ 
+    background-color: rgb(193, 186, 234);
+    text-decoration: double underline;
+    text-transform: uppercase;
+}
+
+.upvote + button{
+    background-color: blueviolet;
+}
+
+/* Child Combinator
+works only on immediate descendants which is a drawback of child combinator */
+div>input{
+    background-color: darksalmon;
+}
+
+/* Attribute Selector */
+input[type="text"]{
+    color: red;
+}
+
+input[type="password"]{
+    color: green;
+}
+
+input[type]{
+    height: 30px;
+    width: 300px;
+}
