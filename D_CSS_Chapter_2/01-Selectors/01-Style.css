@@ -1,0 +1,26 @@
+/* Universal Selector-Applies the property for the entire document */
+*{
+   font-family: 'Courier New', Courier, monospace;
+   background-color: aquamarine;
+}
+
+/* Element Selector */
+h1,h3{
+    color: #B92b27;
+}
+
+/* ID selector */
+#login{
+    background-color: wheat;
+}
+
+#signup{
+    background-color: #B92b27;
+    color: white;
+}
+
+/* Class Selector */
+.upvote{
+    background-color: lightsalmon;
+    color:white;
+}
