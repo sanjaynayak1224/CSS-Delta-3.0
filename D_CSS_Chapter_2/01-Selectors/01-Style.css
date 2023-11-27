@@ -9,7 +9,7 @@ h1,h3{
     color: #B92b27;
 }
 
-/* ID selector */
+/* ID selector-used to select one particular element */
 #login{
     background-color: wheat;
 }
@@ -19,7 +19,7 @@ h1,h3{
     color: white;
 }
 
-/* Class Selector */
+/* Class Selector-used to select a group of elements*/
 .upvote{
     background-color: lightsalmon;
     color:white;
