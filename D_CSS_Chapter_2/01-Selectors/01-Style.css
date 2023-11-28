@@ -72,7 +72,61 @@ input[type="password"]{
     color: green;
 }
 
-input[type]{
+input[type="text"],input[type="password"]{
     height: 30px;
     width: 300px;
+}
+
+/* Pseudo class:
+Hover */
+
+button:hover{
+    background-color: black;
+    color: white;
+}
+
+h3:hover{
+    text-decoration: overline;
+}
+
+/* acitve */
+
+button:active{
+    background-color: hotpink;
+    color: black;
+}
+
+p:active{
+    font-weight: bold;
+    color: green
+}
+
+/* checked-used for radio button and checkbox button */
+
+input[type="radio"]:checked +label{
+    color: darkmagenta;
+    font-weight: bold;
+}
+
+/* nth-of-type */
+div:nth-of-type(2n){
+    background-color: lightcoral;
+}
+
+/* Pseudo Elements:
+first-letter */
+
+h1::first-letter{
+    color: black;
+}
+
+/* first-line */
+.Lorem::first-line{
+    color: purple;
+}
+
+/* selection */
+.Lorem::selection{
+    color: limegreen;
+    background-color: black;
 }
