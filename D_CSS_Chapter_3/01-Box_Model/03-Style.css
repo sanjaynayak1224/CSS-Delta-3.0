@@ -1,0 +1,36 @@
+h2{
+    display: inline;
+    background-color: pink;
+}
+
+.spans{
+    display: block;
+    background-color: yellowgreen;
+}
+
+#spans{
+    /* background-color: pink; */
+    border: 2px solid black;
+    height: 100px;
+    width: 200px;
+    padding: 50px;
+    margin: 20px;
+}
+
+div{
+    height: 200px;
+    width: 200px;
+    background-color: greenyellow;
+    border: 2px solid black;
+    margin: 5px;
+    display: inline-block
+}
+
+/* #third{
+    display: none; this makes the div element completely disappear from the webpage
+}
+ */
+
+ h1{
+    width: 33.33%;
+ }
