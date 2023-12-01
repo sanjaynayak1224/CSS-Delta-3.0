@@ -1,0 +1,45 @@
+section{
+    transform: translateX(32%);
+}
+.card{
+    width: 200px;
+    height: 280px;
+    border: 2px solid black;
+    display: inline-block;
+    margin: 10px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 8px black;
+   
+}
+
+h3{
+    transform: translate(10px,-5px)
+}
+p{
+    transform: translate(10px,-9px);
+}
+.desc{
+    transform: translate(5px,-1px);
+    background-color: bisque;
+    width: 190px;
+    height:80px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+
+img{
+    width: 100%;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.card:hover{
+    box-shadow: 3px 8px 16px black;
+    transition: box-shadow 0.2s linear;
+    transform: scale(1.05);
+}
+
+.desc:hover{
+    box-shadow: 2px 2px 8px black;
+}
