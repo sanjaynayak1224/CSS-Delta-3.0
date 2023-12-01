@@ -1,0 +1,9 @@
+div{
+    background-color: #7aa874;
+    width: 400px;
+    height: 200px;
+    margin: 10px auto;
+    background-image: url(05-Background_Image.jpg);
+    background-size: cover;
+    color: white;
+}
