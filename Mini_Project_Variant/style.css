@@ -1,0 +1,133 @@
+*{
+  margin:0;
+  padding:0;
+  font-family: 'Shadows Into Light', cursive;
+}
+
+.Main_Container{
+  background-color: #FFAEBC;
+  height: 100vh;
+}
+
+.ThreeLines i{
+  color: black;
+  font-size: 30px;
+  font-weight: 700;
+  position: absolute;
+  left: 16px;
+  line-height: 60px;
+  transition: all 0.2s linear;
+  cursor: pointer;
+}
+
+.Sidebar_Menu{
+  position: fixed;
+  left: -350px;
+  height: 100vh;
+  width: 300px;
+  background-color: #FBE7C6;
+  border: 2px solid black;
+  box-shadow: 0px 0px 8px black;
+  transition: all 0.3s linear;
+}
+
+.Sidebar_Menu .logo{
+  height: 60px;
+    position: absolute;
+    width: 100%;
+    line-height: 60px;
+    box-shadow: 0px 0px 4px rgba(0,0,0, 1);
+}
+
+.Sidebar_Menu .logo a{
+  color: black;
+  position: absolute;
+  left: 50px;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+
+.Sidebar_Menu .Cross_Mark i{
+  color: black;
+  font-size: 25px;
+  position: absolute;
+  line-height: 60px;
+  left:270px;
+  opacity: 0;
+  transition: all 0.2s linear;
+  cursor: pointer;
+}
+
+.Sidebar_Menu .Menu{
+  position: absolute;
+  width: 100%;
+  top: 80px;
+}
+
+.Sidebar_Menu .Menu li{
+  margin-top: 6px;
+  padding: 10px 10px;
+  cursor: pointer;
+}
+
+.Sidebar_Menu .Menu i,a{
+  font-size: 25px;
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+  
+}
+
+.Sidebar_Menu .Menu i{
+  padding-right: 8px;
+}
+
+.Sidebar_Menu .Social_Media{
+  position: absolute;
+  bottom: 50px;
+  left: 25%;
+}
+
+.Sidebar_Menu .Social_Media i{
+  font-size: 20px;
+  color:black;
+  opacity: 0.5;
+  padding: 0px 5px 0px;
+  position: relative;
+  left: -45px;
+}
+
+#check{
+  display: none;
+}
+
+.Sidebar_Menu .Menu li:hover{
+  box-shadow: 0px 0px 4px rgba(255, 255, 255, 1);
+}
+
+.ThreeLines i:hover{
+  transform: scale(1.15);
+}
+
+.Cross_Mark i:hover{
+  transform: scale(1.25);
+}
+
+.Sidebar_Menu .Social_Media i:hover{
+      opacity: 1;
+      transform: scale(1.2);
+}
+
+#check:checked ~.Sidebar_Menu{
+    left:0px;
+}
+
+#check:checked ~.Threelines{
+  opacity: 0;
+}
+
+#check:checked ~.Sidebar_Menu .Cross_Mark i{
+  opacity:1;
+}
