@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="01-style.css" />
+  </head>
+  <body>
+    <!-- Container  Layout -->
+    <div class="container">
+      <h2>Bootstrap Demo</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate amet nostrum officia
+        vitae eos laudantium minima dolorum ipsum? Optio vitae ipsam consectetur consequuntur quia
+        veritatis quaerat amet, ut dolor magnam. Earum, non quaerat. Velit voluptatibus aliquid
+        doloremque rem sequi numquam libero quis hic amet sint ad commodi enim veritatis impedit
+        adipisci quam dolor odit fugiat, animi fugit repellat necessitatibus sapiente! Aut
+        asperiores fugiat corporis, nesciunt laboriosam aperiam. Sint magnam harum ipsam quam rerum,
+        deserunt doloremque id? Sapiente sed modi nobis totam, unde consequuntur quos fuga dolore?
+        Aut voluptatibus possimus eius? Voluptatibus illo dolorem nulla quas expedita voluptas
+        excepturi animi at corrupti, beatae laudantium saepe velit laboriosam cumque nihil voluptate
+        quia natus explicabo molestiae sunt, harum ducimus? Vel repellat vitae dicta! Distinctio
+        maiores neque doloribus quaerat eveniet, fugit, vel impedit placeat aliquid, laboriosam
+        minima error? Enim qui soluta harum quod minima nemo voluptatem sequi laudantium possimus,
+        optio cupiditate consequuntur architecto repellendus?
+      </p>
+
+      <!-- Buttons -->
+      <button type="button" class="btn btn-primary">Primary</button>
+      <button type="button" class="btn btn-secondary">Secondary</button>
+      <button type="button" class="btn btn-success">Success</button>
+      <button type="button" class="btn btn-warning">Warning</button>
+      <button type="button" class="btn btn-info">Info</button>
+      <button type="button" class="btn btn-danger">Danger</button>
+      <br />
+      <br />
+
+      <button type="button" class="btn btn-outline-primary">Primary</button>
+      <button type="button" class="btn btn-outline-secondary">Secondary</button>
+      <button type="button" class="btn btn-outline-success">Success</button>
+      <button type="button" class="btn btn-outline-warning">Warning</button>
+      <button type="button" class="btn btn-outline-info">Info</button>
+      <button type="button" class="btn btn-outline-danger">Danger</button>
+      <br />
+      <br />
+
+      <button type="button" class="btn btn-outline-primary btn-lg">Big Primary</button>
+      <button type="button" class="btn btn-outline-secondary btn-lg">Big Secondary</button>
+      <button type="button" class="btn btn-outline-success btn-lg">Big Success</button>
+      <button type="button" class="btn btn-outline-warning btn-lg">Big Warning</button>
+      <button type="button" class="btn btn-outline-info btn-lg">Big Info</button>
+      <button type="button" class="btn btn-outline-danger btn-lg">Big Small Danger</button>
+      <br />
+      <br />
+
+      <button type="button" class="btn btn-outline-primary btn-sm">Small Primary</button>
+      <button type="button" class="btn btn-outline-secondary btn-sm">Small Secondary</button>
+      <button type="button" class="btn btn-outline-success btn-sm">Small Success</button>
+      <button type="button" class="btn btn-outline-warning btn-sm">Small Warning</button>
+      <button type="button" class="btn btn-outline-info btn-sm">Small Info</button>
+      <button type="button" class="btn btn-outline-danger btn-sm" disabled>Small disabled</button>
+
+      <!-- a href link as button -->
+      <a href="#" class="btn btn-outline-dark btn-sm">small google me</a>
+      <br />
+
+      <!-- Badges -->
+      <h3>Notifications <span class="badge bg-primary rounded-pill">10+</span></h3>
+      <br />
+      <button class="btn btn-primary">
+        Followers <span class="badge bg-dark rounded-pill">100+</span>
+      </button>
+      <br />
+      <br />
+
+      <!-- Alert -->
+      <div class="alert alert-danger">Dowload Failed please try again</div>
+
+      <div class="alert alert-success alert-dismissible">
+        Your Score Is 50/50
+        <button class="btn-close" data-bs-dismiss="alert"></button>
+      </div>
+      <br />
+
+      <!-- Button-Grouping -->
+      <!-- Normal Three Buttons Vs Grouped Three Buttons -->
+      <button class="btn btn-outline-primary">One</button>
+      <button class="btn btn-outline-info">Two</button>
+      <button class="btn btn-outline-success">Three</button>
+
+      <div class="btn-group">
+        <div class="btn btn-outline-primary">One</div>
+        <div class="btn btn-outline-info">Two</div>
+        <div class="btn btn-outline-warning">Three</div>
+      </div>
+      <br />
+
+      <!-- button checkbox grouping -->
+     <div class="btn-group" role="group"              aria-label="Basic checkbox toggle button group">
+        <input type="checkbox" class="btn-check" id="btncheck1" autocomplete="off" />
+        <label class="btn btn-outline-primary" for="btncheck1">Checkbox 1</label>
+
+        <input type="checkbox" class="btn-check" id="btncheck2" autocomplete="off" />
+        <label class="btn btn-outline-primary" for="btncheck2">Checkbox 2</label>
+
+        <input type="checkbox" class="btn-check" id="btncheck3" autocomplete="off" />
+        <label class="btn btn-outline-primary" for="btncheck3">Checkbox 3</label>
+      </div>
+      <br />
+
+      <!-- radio checkbox grouping -->
+      <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+        <input
+          type="radio"
+          class="btn-check"
+          name="btnradio"
+          id="btnradio1"
+          autocomplete="off"
+          checked
+        />
+        <label class="btn btn-outline-primary" for="btnradio1">Radio 1</label>
+
+        <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off" />
+        <label class="btn btn-outline-primary" for="btnradio2">Radio 2</label>
+
+        <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off" />
+        <label class="btn btn-outline-primary" for="btnradio3">Radio 3</label>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
