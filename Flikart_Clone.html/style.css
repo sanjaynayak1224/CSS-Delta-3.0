@@ -1,0 +1,94 @@
+*{
+    margin: 0px;
+    padding:0px;
+    background-color: whitesmoke;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+.Header_Div{
+    display: flex;
+    justify-content:space-evenly;
+}
+.Main_Div .Header_Div{
+    background-color: white;
+   height: 70px;
+   /* border: 2px solid black; */
+}
+.Main_Div .Header_Div .Flipkart_Logo,img{
+    background-color: white;
+    position: relative;
+    top: 8px;
+    left:10px;
+    height: 60px;
+    width: 180px;
+     
+}
+.Main_Div .Header_Div img{
+    width: 160px;
+    position: relative;
+    top: -3px;
+    left:-5px;
+}
+.Main_Div .Header_Div .Input_Box{
+    position: relative;
+    left: -30px;
+    background-color: white;
+    padding-top: 10px;
+}
+
+
+.Main_Div .Header_Div .Input_Box input{
+    position: relative;
+    left: -20px;
+    border: none;
+    font-size: 20px;
+    background-color: rgba(18, 244, 244,0.25);
+    height: 45px;
+    width: 850px;
+    border-radius: 10px;
+}
+.Main_Div .Header_Div .Input_Box span{
+    font-size: 30px;
+    background-color: rgba(18, 244, 244,0.0001);
+    position:relative;
+    top:8px;
+    left: 20px;
+    cursor: pointer;
+
+}
+
+.Main_Div .Header_Div .Login{
+    position: relative;
+    top:10px;
+    height: 45px;
+    background-color: white;
+    border-radius:10px;
+}
+
+.Main_Div .Header_Div .Login span,a{
+    position: relative;
+    color: black;
+    background-color: white;
+    text-decoration: none;
+}
+
+.Main_Div .Header_Div .Login .profile{
+    position: relative;
+    top: 11px;
+    cursor: pointer;
+}
+
+.Main_Div .Header_Div .Login a{
+    position: relative;
+    top: 5px;
+    padding: 0px 2px 0px;
+}
+
+.Main_Div .Header_Div .Login .arrow{
+    font-size: 20px;
+    position: relative;
+    top:10px;
+    right: 1px;
+    cursor: pointer;
+}
+
