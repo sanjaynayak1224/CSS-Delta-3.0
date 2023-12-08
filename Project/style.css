@@ -168,8 +168,12 @@ a{
 
 .sticky-nav-icons .arrow img{
     padding: 0.45rem 0.45rem;
+    cursor: pointer;
 }
 
+.sticky-nav-icons .arrow:hover{
+    transform: scale(1.2);
+}
 .sticky-nav-options{
     display: flex;
     justify-content: center;
